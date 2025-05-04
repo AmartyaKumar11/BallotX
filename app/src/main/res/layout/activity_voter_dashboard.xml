@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1E1B26"
+    android:padding="24dp">
+
+    <!-- Welcome Message -->
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome, Voter!"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- View Candidates Button -->
+    <Button
+        android:id="@+id/btnViewCandidates"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="View Candidates"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bg_button_purple"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- View Ongoing Elections Button -->
+    <Button
+        android:id="@+id/btnViewOngoingElections"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="View Ongoing Elections"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bg_button_purple"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Upload Documents Button -->
+    <Button
+        android:id="@+id/btnUploadDocuments"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Upload Documents"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bg_button_purple"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- View Election Results Button -->
+    <Button
+        android:id="@+id/btnViewResults"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="View Election Results"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bg_button_purple"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Logout"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bg_button_purple"/>
+</LinearLayout>

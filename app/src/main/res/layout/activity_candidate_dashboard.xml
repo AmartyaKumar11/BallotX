@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1E1B26"
+    android:padding="24dp">
+
+    <!-- Welcome Message -->
+    <Button
+        android:id="@+id/btnUploadManifesto"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Upload Manifesto"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bg_button_purple"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- View Election Status Button -->
+    <Button
+        android:id="@+id/btnViewElectionStatus"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="View Election Status"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bg_button_purple"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/btnLogoutCandidate"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Logout"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bg_button_purple"/>
+</LinearLayout>

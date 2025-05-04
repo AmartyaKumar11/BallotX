@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1E1B26"
+    android:padding="24dp">
+
+    <!-- Candidate Name -->
+    <TextView
+        android:id="@+id/tvCandidateName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jane Doe"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Manifesto -->
+    <TextView
+        android:id="@+id/tvManifesto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manifesto: I will work for a better future."
+        android:textSize="16sp"
+        android:textColor="#AAAAAA"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Vote Button -->
+    <Button
+        android:id="@+id/btnVote"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Vote for this Candidate"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bg_button_purple"
+        android:layout_marginBottom="16dp"/>
+</LinearLayout>
