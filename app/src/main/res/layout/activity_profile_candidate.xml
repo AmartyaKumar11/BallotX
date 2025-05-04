@@ -1,1 +1,60 @@
-<LinearLayout></LinearLayout>
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1E1B26"
+    android:padding="24dp">
+
+    <!-- Profile Header -->
+    <TextView
+        android:id="@+id/tvProfileHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Profile"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Profile Picture -->
+    <ImageView
+        android:id="@+id/ivProfilePicture"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_default_profile"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Name -->
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="John Doe"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Email -->
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="john.doe@example.com"
+        android:textSize="16sp"
+        android:textColor="#CCCCCC"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Edit Profile Button -->
+    <Button
+        android:id="@+id/btnEditProfile"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Edit Profile"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bg_button_purple"/>
+</LinearLayout>

@@ -1,1 +1,26 @@
-<LinearLayout></LinearLayout>
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1E1B26"
+    android:padding="24dp">
+
+    <!-- Documents Header -->
+    <TextView
+        android:id="@+id/tvDocumentsHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Documents"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Document List (RecyclerView) -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewDocuments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
